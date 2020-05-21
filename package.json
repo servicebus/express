@@ -1,7 +1,7 @@
 {
-  "name": "express-api-common",
+  "name": "@servicebus/express",
   "version": "0.0.0-development",
-  "description": "express api configured with logging, healthcheck, prometheus metrics, and other things I commonly use",
+  "description": "express server configured with servicebus middleware, and prometheus exporters, and request (leveled optional) logging",
   "scripts": {
     "commit": "git-cz",
     "build": "babel src -d dist",
@@ -10,9 +10,7 @@
     "test": "jest --config jest.json --coverage --verbose",
     "test:watch": "jest --config jest.json --watch --coverage --verbose",
     "precommit": "npm run lint:fix && npm run test",
-    "prepublish": "npm run build",
-    "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "prepublish": "npm run build"
   },
   "main": "dist/server.js",
   "files": [
@@ -20,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/patrickleet/express-api-common.git"
+    "url": "https://github.com/servicebus/express.git"
   },
   "dependencies": {
     "@servicebus/express-middleware": "^1.0.1",

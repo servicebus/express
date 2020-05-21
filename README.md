@@ -1,14 +1,14 @@
-# express-api-common
-[![Build Status](https://travis-ci.org/patrickleet/express-api-common.svg?branch=master)](https://travis-ci.org/patrickleet/express-api-common)
-[![codecov](https://codecov.io/gh/patrickleet/express-api-common/branch/master/graph/badge.svg)](https://codecov.io/gh/patrickleet/express-api-common)
+# @servicebus/express
+[![Build Status](https://travis-ci.org/servicebus/express.svg?branch=master)](https://travis-ci.org/servicebus/express)
+[![codecov](https://codecov.io/gh/servicebus/express/branch/master/graph/badge.svg)](https://codecov.io/gh/servicebus/express)
 
-express server configured with servicebus middleware, and prometheus exporters, and request (leveled optional) logging
+express server configured with servicebus middleware, Prometheus exporters, and request (leveled optional) logging
 
 ## Usage
 
 ```
 import log from 'llog'
-import makeServer from 'express-api-common'
+import makeServer from '@servicebus/express'
 
 const options = {
   logger: log
