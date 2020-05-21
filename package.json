@@ -1,7 +1,7 @@
 {
   "name": "@servicebus/express",
   "version": "0.0.0-development",
-  "description": "express server configured with servicebus middleware, and prometheus exporters, and request (leveled optional) logging",
+  "description": "wrapper around express that configures @servicebus middleware, prometheus exporters, and request logging",
   "scripts": {
     "commit": "git-cz",
     "build": "babel src -d dist",
