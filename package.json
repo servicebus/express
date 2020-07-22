@@ -47,7 +47,7 @@
     "eslint-plugin-standard": "4.0.1",
     "husky": "4.2.5",
     "jest": "26.1.0",
-    "regenerator-runtime": "0.13.6"
+    "regenerator-runtime": "0.13.7"
   },
   "license": "ISC",
   "config": {
